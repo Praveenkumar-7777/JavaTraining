@@ -1,6 +1,10 @@
+
+import java.util.Scanner;
+
 class Task2{
     public static void main(String[] args) {
-        int age = 77;
+        Scanner s = new Scanner(System.in);
+        int age = s.nextInt();
         if(age>=18){
             System.out.println("Eligible to Vote");
         }
