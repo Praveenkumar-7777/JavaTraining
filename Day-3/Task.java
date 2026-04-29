@@ -13,6 +13,9 @@ class Task{
         else if(a>60 && a<=70){
             System.out.println("Grade D");
         }
+        else if(a>50 && a<=60){
+            System.out.println("Grade E");
+        }
         else{
             System.out.println("Fail");
         }
